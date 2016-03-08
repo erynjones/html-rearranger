@@ -6,7 +6,7 @@ var $aboveveggies = $('<ul>');
 $newH1.html('Below ground veggies');
 $('body').prepend($newH1);
 
-$('body').prepend($belowveggies);
+$('body').append($belowveggies);
 
 $aboveH1.html('Above ground veggies');
 $('body').append($aboveH1);
